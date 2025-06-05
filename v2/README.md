@@ -2,6 +2,8 @@
 Main source of documentation: https://api.intra.42.fr/apidoc
 
 ## Overview
+The Intra V2 API is very particularly designed. It is essentially a reflection of the database structure underneath. For example, there is a user object and an event object. These two objects can be linked by a events_users object, which contains the link between a user and an event, as well as the date when the user registered for the event. This applies to almost all objects in the Intra V2 API. This can sometimes make it difficult to find the information you need, but it also allows for a lot of flexibility in how you can use the API and to change what you need as a staff member.
+
 Below is a list of endpoints available in the Intra v2 API, which is used to access various resources and data related to the 42 Network. Each endpoint includes a brief description and example usages.
 
 ### Accreditations
