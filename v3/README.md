@@ -4,6 +4,38 @@ The Intra V3 API is seperated into several sections, each with its own documenta
 
 ---
 
+## Paced System
+Main source of documentation: https://pace-system.42.fr/api/v1/docs
+The Paced System API provides information about the paced system, which is a system that allows students to progress through their curriculum at their own pace, setting their own milestones.
+
+### Users
+Get information on specific users.
+
+TODO: list endpoints
+
+### Milestones
+Retrieve all or individual milestones.
+
+#### /milestones/{milestone_id}
+Retrieve a specific milestone by its ID.
+
+#### /milestones
+Retrieve all milestones.
+
+### Pace Matrix
+TODO: list endpoints
+
+### Paces
+TODO: list endpoints
+
+### Campus
+Get information about a campus.
+
+TODO: list endpoints
+
+
+---
+
 ## Freezes
 Main source of documentation: https://freeze.42.fr/api/v2/docs.
 The Freezes API provides information about freezes and user deadlines in the Common Core.
