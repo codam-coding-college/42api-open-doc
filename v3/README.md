@@ -87,3 +87,30 @@ Get an overview of campuses and their available attendance sources.
 Sources normally include locations, which are copied over from the Intra V2 API and contain the time users spent behind computers at a campus.
 
 Some campuses might have additional sources. For example, Codam has a source called "VSA" that contains the time users spent in the building.
+
+
+---
+
+## Alumni Management
+Main source of documentation: https://alumni-management.42.fr/api/v1/docs#/
+
+### alumni_auto
+
+TODO: list endpoints
+
+### alumni_auto_logs
+
+TODO: list endpoints
+
+### Campuses
+
+TODO: list endpoints
+
+### Default
+
+#### /wh/tally
+Marks a survey as filled.
+
+### Student
+
+TODO: list endpoints
